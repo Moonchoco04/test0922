@@ -1,0 +1,58 @@
+import { PresetSample } from '../types';
+
+export const PRESET_SAMPLES: PresetSample[] = [
+  {
+    title: '회의 일정 변경 요청',
+    category: '일정 조율',
+    rawText: '내일 오후 2시 미팅 다른 일 생겨서 못 갈 것 같아요. 혹시 4시나 모레 오전으로 미룰 수 있을까요? 죄송해요.',
+    tone: 'polite',
+    recipient: 'client',
+    recipientName: '박민우 팀장님',
+    senderName: '이서연',
+  },
+  {
+    title: '자료 회신 재촉',
+    category: '업무 요청',
+    rawText: '지난주에 요청드린 견적서랑 계약서 초안 아직 안 왔는데 언제쯤 주시나요? 이번 주 안에 결재 올려야 해서 좀 급합니다.',
+    tone: 'polite',
+    recipient: 'partner',
+    recipientName: '최진호 부장님',
+    senderName: '김민수 대리',
+  },
+  {
+    title: '제안/견적 정중한 거절',
+    category: '거절/양해',
+    rawText: '보내주신 제안서 검토해봤는데 우리 예산이랑 많이 차이나고 일정상 이번엔 같이 진행하기 어려울 것 같아요. 다음에 기회 되면 연락드릴게요.',
+    tone: 'apologetic',
+    recipient: 'partner',
+    recipientName: '이지훈 대표님',
+    senderName: '박준영 과장',
+  },
+  {
+    title: '연차 휴가 승인 요청',
+    category: '사내 결재',
+    rawText: '다음 주 월요일부터 수요일까지 3일 연차 쓰겠습니다. 긴급 업무는 김 대리에게 전달해 두었습니다. 결재 부탁드려요.',
+    tone: 'formal',
+    recipient: 'boss',
+    recipientName: '정우성 부장님',
+    senderName: '한지민 대리',
+  },
+  {
+    title: '납기일 연장 양해 요청',
+    category: '일정 지연',
+    rawText: '추가 요구사항 반영 때문에 원래 약속한 이번 주 금요일까지 전달이 힘들 것 같아요. 다음 주 화요일까지 시간 더 주실 수 있나요?',
+    tone: 'apologetic',
+    recipient: 'client',
+    recipientName: '강태석 실장님',
+    senderName: '윤아름 팀장',
+  },
+  {
+    title: '프로젝트 종료 감사 인사',
+    category: '감사/마무리',
+    rawText: '그동안 같이 고생해주셔서 무사히 프로젝트 끝났습니다. 여러모로 많이 도와주셔서 감사합니다. 다음에 또 좋은 기회로 뵀으면 좋겠습니다.',
+    tone: 'formal',
+    recipient: 'client',
+    recipientName: '오세훈 담당자님',
+    senderName: '송지우 PM',
+  },
+];

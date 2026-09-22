@@ -1,0 +1,8 @@
+{
+  "name": "비즈니스 메일 정중 변환기",
+  "description": "메일 내용을 정중하고 세련된 비즈니스 메일 초안으로 변환해주는 AI 메일 작성 웹앱",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
